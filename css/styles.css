@@ -485,7 +485,7 @@ img {
 
 /* Feature section */
 
-.features-list {
+/* .features-list {
   display: flex;
   gap: 30px;
   padding-right: 5px;
@@ -517,11 +517,11 @@ img {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
-}
+} */
 
 /* Work section */
 
-.work {
+/* .work {
   padding-top: 0;
 }
 
@@ -570,7 +570,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 
 /* Team section */
 
