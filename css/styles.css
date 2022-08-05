@@ -544,14 +544,14 @@ img {
 
 /* Feature section */
 
-.feature-list {
+.features-list {
   display: flex;
   gap: 30px;
   padding-right: 5px;
   padding-left: 5px;
 }
 
-.feature-subtitle {
+.features__subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -560,24 +560,35 @@ img {
   color: var(--main-txt-cl);
   padding-bottom: 10px;
 }
-.feature-item {
+.features-list__item {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
 }
 
+.features-list__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+}
+
 /* Work section */
 
-.section-work {
+.work {
   padding-top: 0;
 }
-.work-title {
+.work__title {
   margin-bottom: 47px;
 }
-.work-title,
-.team-title,
-.clients-title {
+.work__title,
+.team__title,
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -588,7 +599,7 @@ img {
   margin-bottom: 50px;
 }
 
-.work-list {
+.work__list {
   display: flex;
   gap: var(--indent);
   flex-wrap: wrap;
@@ -611,7 +622,7 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.work-overlay-title {
+.work-overlay__title {
   position: absolute;
   bottom: 27px;
   /* top: 50%;
@@ -633,20 +644,12 @@ img {
   background: #f5f4fa;
 }
 
-/* .team-title {
-  margin-bottom: 50px;
-} */
-
 .team-list {
   display: flex;
   gap: var(--indent);
   flex-wrap: wrap;
   --items: 4;
 }
-
-/* .team-item {
-  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
-} */
 
 .team-wrapper {
   background: #ffffff;
@@ -688,10 +691,6 @@ img {
   margin-bottom: 50px;
   justify-content: center;
 }
-
-/* .btn-filter {
-  transition: filter var(--animation);
-} */
 
 .btn-filter:hover,
 .btn-filter:focus {
@@ -863,26 +862,6 @@ img {
   fill: currentColor;
 }
 
-/* .socials-link:hover,
-.socials-link:focus {
-  background-color: #2196f3;
-}
-
-.socials-link:hover .socials-icon {
-  fill: #ffffff;
-} */
-
-.features-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-}
-
 .header-icon {
   fill: currentColor;
 }
@@ -894,18 +873,20 @@ img {
   gap: 10px;
 }
 
-.clients-list {
+/* Clients section */
+
+.clients__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
 
-.clients-link {
+.clients__link {
   color: #afb1b8;
 }
 
-.clients-icon {
+.clients__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -919,8 +900,8 @@ img {
   transition: color var(--animation), border var(--animation);
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients__icon:hover,
+.clients__icon:focus {
   color: #2196f3;
   border: 1px solid #2196f3;
 }
