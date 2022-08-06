@@ -574,7 +574,7 @@ img {
 
 /* Team section */
 
-.team {
+/* .team {
   background: #f5f4fa;
 }
 
@@ -626,7 +626,7 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 16px;
-}
+} */
 
 /* Project section */
 
@@ -739,7 +739,7 @@ img {
 
 /* Footer section */
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--dark-bg-cl);
@@ -747,7 +747,6 @@ img {
 
 .address-list {
   display: block;
-  /* gap: 9px; */
   margin-top: 20px;
 }
 
@@ -781,11 +780,11 @@ img {
 .footer-phone:hover,
 .footer-phone:focus {
   color: var(--accent-txt-cl);
-}
+} */
 
 /* Socials icon */
 
-.socials {
+/* .socials {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -812,7 +811,7 @@ img {
 
 .socials-icon {
   fill: currentColor;
-}
+} */
 
 /* .header-icon {
   fill: currentColor;
@@ -827,7 +826,7 @@ img {
 
 /* Clients section */
 
-.clients__list {
+/* .clients__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -867,14 +866,13 @@ img {
 .clients__icon:focus {
   color: #2196f3;
   border: 1px solid #2196f3;
-}
+} */
 
 /* Footer section */
 
-.footer-content {
+/* .footer-content {
   display: flex;
   align-items: baseline;
-  /* gap: 70px; */
 }
 
 .footer-address {
@@ -980,4 +978,4 @@ img {
   align-items: center;
   text-align: center;
   justify-content: center;
-}
+} */
